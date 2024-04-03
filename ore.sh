@@ -15,4 +15,10 @@ wait $!
 chmod +x ore
 
 # 再次执行ore挖矿命令
-./ore --rpc https://solana-mainnet.phantom.app/YBPpkkN4g91xDiAnTE9r0RcMkjg0sKUIWvAfoFVJ --keypair ~/.config/solana/id.json --priority-fee 100000 mine --threads 30
+while true
+do 
+   ./ore --rpc https://solana-mainnet.phantom.app/YBPpkkN4g91xDiAnTE9r0RcMkjg0sKUIWvAfoFVJ --keypair ~/.config/solana/id.json --priority-fee 100000 mine --threads 30
+done
+
+
+
