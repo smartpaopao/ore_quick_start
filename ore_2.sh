@@ -8,7 +8,7 @@ echo "$user_input" > /home/ubuntu/.config/solana/id2.json
 export PATH="/home/ubuntu/.local/share/solana/install/active_release/bin:$PATH"
 
 # 运行ore挖矿命令并在1分钟后自动结束
-ore --rpc https://api.mainnet-beta.solana.com --keypair ~/.config/solana/id.json --priority-fee 500000 mine --threads 10 & sleep 60; kill $!
+ore --rpc https://api.mainnet-beta.solana.com --keypair ~/.config/solana/id2.json --priority-fee 500000 mine --threads 10 & sleep 60; kill $!
 wait $!
 
 # 给ore脚本执行权限
