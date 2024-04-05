@@ -18,5 +18,5 @@ chmod +x ore
 # 再次执行 ore 挖矿命令
 while true
 do 
-   ./ore --rpc https://raydium-raydium-5ad5.mainnet.rpcpool.com --keypair ~/.config/solana/$ID.json --priority-fee 100000 mine --threads 30
+   ./ore --rpc http://127.0.0.1:5000 --keypair ~/.config/solana/$ID.json --priority-fee 100000 mine --threads 30
 done
