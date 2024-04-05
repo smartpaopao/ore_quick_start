@@ -18,5 +18,5 @@ chmod +x ore
 # 再次执行 ore 挖矿命令
 while true
 do 
-   ./ore --rpc https://solana-mainnet.phantom.app/YBPpkkN4g91xDiAnTE9r0RcMkjg0sKUIWvAfoFVJ --keypair ~/.config/solana/$ID.json --priority-fee 100000 mine --threads 30
+   ./ore --rpc https://cold-hanni-fast-mainnet.helius-rpc.com --keypair ~/.config/solana/$ID.json --priority-fee 100000 mine --threads 30
 done
